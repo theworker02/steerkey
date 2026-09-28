@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/steerkey",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Steer identifiers and key tokens for idempotent workflows.",
+  "bin": {
+    "steerkey": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/steerkey.git"
+  },
+  "homepage": "https://theworker02.github.io/steerkey/",
+  "keywords": [
+    "steer",
+    "key",
+    "id",
+    "cli",
+    "toolkit"
+  ]
+}
